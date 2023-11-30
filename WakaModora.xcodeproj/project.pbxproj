@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FF996162B191E78009C4085 /* WakaModoraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF996152B191E78009C4085 /* WakaModoraApp.swift */; };
+		3FF996182B191E78009C4085 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF996172B191E78009C4085 /* ContentView.swift */; };
+		3FF9961A2B191E7A009C4085 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF996192B191E7A009C4085 /* Assets.xcassets */; };
+		3FF9961D2B191E7A009C4085 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF9961C2B191E7A009C4085 /* Preview Assets.xcassets */; };
+		3FF996272B191E7A009C4085 /* WakaModoraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF996262B191E7A009C4085 /* WakaModoraTests.swift */; };
+		3FF996312B191E7A009C4085 /* WakaModoraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF996302B191E7A009C4085 /* WakaModoraUITests.swift */; };
+		3FF996332B191E7A009C4085 /* WakaModoraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF996322B191E7A009C4085 /* WakaModoraUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FF996232B191E7A009C4085 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FF9960A2B191E78009C4085 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF996112B191E78009C4085;
+			remoteInfo = WakaModora;
+		};
+		3FF9962D2B191E7A009C4085 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FF9960A2B191E78009C4085 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF996112B191E78009C4085;
+			remoteInfo = WakaModora;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FF996122B191E78009C4085 /* WakaModora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WakaModora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF996152B191E78009C4085 /* WakaModoraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakaModoraApp.swift; sourceTree = "<group>"; };
+		3FF996172B191E78009C4085 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3FF996192B191E7A009C4085 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FF9961C2B191E7A009C4085 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3FF996222B191E7A009C4085 /* WakaModoraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WakaModoraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF996262B191E7A009C4085 /* WakaModoraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakaModoraTests.swift; sourceTree = "<group>"; };
+		3FF9962C2B191E7A009C4085 /* WakaModoraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WakaModoraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF996302B191E7A009C4085 /* WakaModoraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakaModoraUITests.swift; sourceTree = "<group>"; };
+		3FF996322B191E7A009C4085 /* WakaModoraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakaModoraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FF9960F2B191E78009C4085 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF9961F2B191E7A009C4085 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF996292B191E7A009C4085 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FF996092B191E78009C4085 = {
+			isa = PBXGroup;
+			children = (
+				3FF996142B191E78009C4085 /* WakaModora */,
+				3FF996252B191E7A009C4085 /* WakaModoraTests */,
+				3FF9962F2B191E7A009C4085 /* WakaModoraUITests */,
+				3FF996132B191E78009C4085 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FF996132B191E78009C4085 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FF996122B191E78009C4085 /* WakaModora.app */,
+				3FF996222B191E7A009C4085 /* WakaModoraTests.xctest */,
+				3FF9962C2B191E7A009C4085 /* WakaModoraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FF996142B191E78009C4085 /* WakaModora */ = {
+			isa = PBXGroup;
+			children = (
+				3FF996152B191E78009C4085 /* WakaModoraApp.swift */,
+				3FF996172B191E78009C4085 /* ContentView.swift */,
+				3FF996192B191E7A009C4085 /* Assets.xcassets */,
+				3FF9961B2B191E7A009C4085 /* Preview Content */,
+			);
+			path = WakaModora;
+			sourceTree = "<group>";
+		};
+		3FF9961B2B191E7A009C4085 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3FF9961C2B191E7A009C4085 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3FF996252B191E7A009C4085 /* WakaModoraTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FF996262B191E7A009C4085 /* WakaModoraTests.swift */,
+			);
+			path = WakaModoraTests;
+			sourceTree = "<group>";
+		};
+		3FF9962F2B191E7A009C4085 /* WakaModoraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FF996302B191E7A009C4085 /* WakaModoraUITests.swift */,
+				3FF996322B191E7A009C4085 /* WakaModoraUITestsLaunchTests.swift */,
+			);
+			path = WakaModoraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FF996112B191E78009C4085 /* WakaModora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF996362B191E7A009C4085 /* Build configuration list for PBXNativeTarget "WakaModora" */;
+			buildPhases = (
+				3FF9960E2B191E78009C4085 /* Sources */,
+				3FF9960F2B191E78009C4085 /* Frameworks */,
+				3FF996102B191E78009C4085 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WakaModora;
+			productName = WakaModora;
+			productReference = 3FF996122B191E78009C4085 /* WakaModora.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FF996212B191E7A009C4085 /* WakaModoraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF996392B191E7A009C4085 /* Build configuration list for PBXNativeTarget "WakaModoraTests" */;
+			buildPhases = (
+				3FF9961E2B191E7A009C4085 /* Sources */,
+				3FF9961F2B191E7A009C4085 /* Frameworks */,
+				3FF996202B191E7A009C4085 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FF996242B191E7A009C4085 /* PBXTargetDependency */,
+			);
+			name = WakaModoraTests;
+			productName = WakaModoraTests;
+			productReference = 3FF996222B191E7A009C4085 /* WakaModoraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FF9962B2B191E7A009C4085 /* WakaModoraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF9963C2B191E7A009C4085 /* Build configuration list for PBXNativeTarget "WakaModoraUITests" */;
+			buildPhases = (
+				3FF996282B191E7A009C4085 /* Sources */,
+				3FF996292B191E7A009C4085 /* Frameworks */,
+				3FF9962A2B191E7A009C4085 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FF9962E2B191E7A009C4085 /* PBXTargetDependency */,
+			);
+			name = WakaModoraUITests;
+			productName = WakaModoraUITests;
+			productReference = 3FF9962C2B191E7A009C4085 /* WakaModoraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FF9960A2B191E78009C4085 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3FF996112B191E78009C4085 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					3FF996212B191E7A009C4085 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 3FF996112B191E78009C4085;
+					};
+					3FF9962B2B191E7A009C4085 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 3FF996112B191E78009C4085;
+					};
+				};
+			};
+			buildConfigurationList = 3FF9960D2B191E78009C4085 /* Build configuration list for PBXProject "WakaModora" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FF996092B191E78009C4085;
+			productRefGroup = 3FF996132B191E78009C4085 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FF996112B191E78009C4085 /* WakaModora */,
+				3FF996212B191E7A009C4085 /* WakaModoraTests */,
+				3FF9962B2B191E7A009C4085 /* WakaModoraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FF996102B191E78009C4085 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF9961D2B191E7A009C4085 /* Preview Assets.xcassets in Resources */,
+				3FF9961A2B191E7A009C4085 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF996202B191E7A009C4085 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF9962A2B191E7A009C4085 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FF9960E2B191E78009C4085 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF996182B191E78009C4085 /* ContentView.swift in Sources */,
+				3FF996162B191E78009C4085 /* WakaModoraApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF9961E2B191E7A009C4085 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF996272B191E7A009C4085 /* WakaModoraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF996282B191E7A009C4085 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF996332B191E7A009C4085 /* WakaModoraUITestsLaunchTests.swift in Sources */,
+				3FF996312B191E7A009C4085 /* WakaModoraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FF996242B191E7A009C4085 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF996112B191E78009C4085 /* WakaModora */;
+			targetProxy = 3FF996232B191E7A009C4085 /* PBXContainerItemProxy */;
+		};
+		3FF9962E2B191E7A009C4085 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF996112B191E78009C4085 /* WakaModora */;
+			targetProxy = 3FF9962D2B191E7A009C4085 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3FF996342B191E7A009C4085 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FF996352B191E7A009C4085 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FF996372B191E7A009C4085 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WakaModora/Preview Content\"";
+				DEVELOPMENT_TEAM = W9872ZR7W8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.WakaModora";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FF996382B191E7A009C4085 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WakaModora/Preview Content\"";
+				DEVELOPMENT_TEAM = W9872ZR7W8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.WakaModora";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FF9963A2B191E7A009C4085 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W9872ZR7W8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.WakaModoraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WakaModora.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WakaModora";
+			};
+			name = Debug;
+		};
+		3FF9963B2B191E7A009C4085 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W9872ZR7W8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.WakaModoraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WakaModora.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WakaModora";
+			};
+			name = Release;
+		};
+		3FF9963D2B191E7A009C4085 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W9872ZR7W8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.WakaModoraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WakaModora;
+			};
+			name = Debug;
+		};
+		3FF9963E2B191E7A009C4085 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W9872ZR7W8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.WakaModoraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WakaModora;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FF9960D2B191E78009C4085 /* Build configuration list for PBXProject "WakaModora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF996342B191E7A009C4085 /* Debug */,
+				3FF996352B191E7A009C4085 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF996362B191E7A009C4085 /* Build configuration list for PBXNativeTarget "WakaModora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF996372B191E7A009C4085 /* Debug */,
+				3FF996382B191E7A009C4085 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF996392B191E7A009C4085 /* Build configuration list for PBXNativeTarget "WakaModoraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF9963A2B191E7A009C4085 /* Debug */,
+				3FF9963B2B191E7A009C4085 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF9963C2B191E7A009C4085 /* Build configuration list for PBXNativeTarget "WakaModoraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF9963D2B191E7A009C4085 /* Debug */,
+				3FF9963E2B191E7A009C4085 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FF9960A2B191E78009C4085 /* Project object */;
+}
