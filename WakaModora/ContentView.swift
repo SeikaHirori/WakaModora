@@ -10,10 +10,34 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            
+            VStack { //  Top of screen
+                HStack {
+                    HStack {
+                        Text("Quick change the current setting environemnt")
+                    }
+                    
+                    Spacer()
+                    
+                    HStack { // Should mostly be contained in top right of screen
+                        Text("Settings")
+                        
+                    }
+                }
+                
+            }
+            Spacer()
+            
+            VStack { // Center of screen
+                Text("Countdown timer goes here")
+                Text("Button to start stop and start")
+            }
+            
+            Spacer()
+            VStack { // bottom of Screen
+                Text("Part x of y session goes here.")
+                Text("Generate the amonut of dots for each session goes here.")
+            }
         }
         .padding()
     }
