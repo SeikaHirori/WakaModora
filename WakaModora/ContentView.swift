@@ -36,7 +36,7 @@ struct ContentView: View {
             Spacer()
             VStack { // bottom of Screen
                 Text("Part x of y session goes here.")
-                Text("Generate the amonut of dots for each session goes here.")
+                Text("Generate the amonut of dots for each session goes here. Use ':D' for finished and ':`[' for future sessions")
             }
         }
         .padding()
