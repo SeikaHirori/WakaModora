@@ -20,7 +20,7 @@ struct ContentView: View {
                     Spacer()
                     
                     HStack { // Should mostly be contained in top right of screen
-                        Text("Settings")
+                        Text("Settings") // Bring up temporary page things
                         
                     }
                 }

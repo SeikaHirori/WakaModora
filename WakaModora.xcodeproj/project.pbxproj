@@ -14,6 +14,7 @@
 		3FF996272B191E7A009C4085 /* WakaModoraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF996262B191E7A009C4085 /* WakaModoraTests.swift */; };
 		3FF996312B191E7A009C4085 /* WakaModoraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF996302B191E7A009C4085 /* WakaModoraUITests.swift */; };
 		3FF996332B191E7A009C4085 /* WakaModoraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF996322B191E7A009C4085 /* WakaModoraUITestsLaunchTests.swift */; };
+		3FF996402B19A46C009C4085 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF9963F2B19A46C009C4085 /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		3FF9962C2B191E7A009C4085 /* WakaModoraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WakaModoraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF996302B191E7A009C4085 /* WakaModoraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakaModoraUITests.swift; sourceTree = "<group>"; };
 		3FF996322B191E7A009C4085 /* WakaModoraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakaModoraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3FF9963F2B19A46C009C4085 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				3FF996152B191E78009C4085 /* WakaModoraApp.swift */,
+				3FF9963F2B19A46C009C4085 /* Settings.swift */,
 				3FF996172B191E78009C4085 /* ContentView.swift */,
 				3FF996192B191E7A009C4085 /* Assets.xcassets */,
 				3FF9961B2B191E7A009C4085 /* Preview Content */,
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF996402B19A46C009C4085 /* Settings.swift in Sources */,
 				3FF996182B191E78009C4085 /* ContentView.swift in Sources */,
 				3FF996162B191E78009C4085 /* WakaModoraApp.swift in Sources */,
 			);
